@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import bgVideo from "../assets/223333.mp4";
+// import bgVideo from "../assets/athirapilly_mainimg.jpg";
 import bgMusic from "../assets/waterfalls.mp3";
 import BookingTabs from "./BookingTab";
-// import bgVideo from "../assets/waterfalls2.mp4";
+import bgVideo from "../assets/waterfalls2.mp4";
 
 const Hero = () => {
   const audioRef = useRef();

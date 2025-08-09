@@ -67,7 +67,7 @@ const Search = () => {
           <div className="border-2 border-[#44b50c] p-4 text-center rounded-xl bg-[#f8fdf5]">
             <p className="text-[#44b50c] font-bold">GET AN ADDITIONAL 10% OFF</p>
             <p className="my-2 text-gray-600">12 hours left</p>
-            <button className="w-full bg-[#44b50c] hover:bg-[#3a9a0a] text-white py-2 rounded-lg font-medium transition">
+            <button className="w-full bg-[#44b50c] hover:bg-[#3a9a0a] text-white py-2 rounded-lg font-medium transition" onClick={e=>handleChat()}>
               BOOK NOW AND SAVE
             </button>
           </div>

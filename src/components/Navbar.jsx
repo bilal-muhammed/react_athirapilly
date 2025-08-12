@@ -32,7 +32,7 @@ const Navbar = () => {
           : "bg-white text-black shadow-md"
       }`}
     >
-      <h1 className="px-2">Athirapilly Holidays.</h1>
+      <h1 className="px-2">Athirapilly Holidays</h1>
       <ul className="hidden md:flex font-['Helvetica'] space-x-6 text-white">
         <li>
           <Link
